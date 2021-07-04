@@ -91,10 +91,32 @@ li div p:active{
   display: none;
   transform: translateY(10px);
   transition: 0.5s all ease-in-out;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 1039px){
   .illustration-box{
     margin-left: -20px;
+  }
+}
+@media screen and (max-width: 765px){
+  main,
+  section{
+    /* grid-template-columns: 1fr; */
+  }
+  main{
+    padding: 100px 20px 20px 0;
+  }
+  section{
+    overflow: visible;
+  }
+  .illustration-box{
+    margin-top: 0;
+    margin-left: 50px;
+  }
+  .illustration-image{
+    margin-top: -150px;
+    margin-left: 50px;
   }
 }
