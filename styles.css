@@ -103,20 +103,46 @@ li div p:active{
 @media screen and (max-width: 765px){
   main,
   section{
-    /* grid-template-columns: 1fr; */
+    grid-template-columns: 1fr;
   }
   main{
-    padding: 100px 20px 20px 0;
+    padding: 150px 20px 20px 0;
   }
   section{
+    max-width: 400px;
     overflow: visible;
   }
+  h1{
+    padding: 0 150px;
+  }
   .illustration-box{
-    margin-top: 0;
-    margin-left: 50px;
+    position: absolute;
+    top: -180px;
+    left: 230px;
+    opacity: 0;
+  }
+  .illustration-box img{
+    width: 80px;
+    margin-top: 20px;
   }
   .illustration-image{
-    margin-top: -150px;
-    margin-left: 50px;
+    margin-top: -120px;
+    margin-left: 70px;
+  }
+  .illustration-image img{
+    width: 250px;
+  }
+  .questions{
+    margin: -120px auto 30px auto;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 415px){
+  .illustration-box{
+    position: absolute;
+    top: -140px;
+    left: 95px;
+    opacity: 1;
   }
 }
