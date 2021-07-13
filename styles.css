@@ -81,10 +81,10 @@ li div p:hover{
   color: hsl(14, 88%, 65%);
   cursor: pointer;
 }
-li div p:active{
+/* li div p:active{
   color: hsl(237, 12%, 33%);
   font-weight: bold;
-}
+} */
 .drop{
   height: 0;
   font-size: 0.8rem;
