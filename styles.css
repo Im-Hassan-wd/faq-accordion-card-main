@@ -55,6 +55,7 @@ section{
 ul {
   list-style: none;
   padding: 0;
+  transition: 0.4s all ease-in-out;
 }
 li div{
   display: flex;
@@ -85,10 +86,11 @@ li div p:active{
   font-weight: bold;
 }
 .drop{
+  height: 0;
   font-size: 0.8rem;
   padding: 0 10px;
   color: hsl(240, 6%, 50%);
-  display: none;
+  overflow: hidden;
   transform: translateY(10px);
   transition: 0.5s all ease-in-out;
   margin-top: 0;
